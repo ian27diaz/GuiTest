@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GuiTest</string>
+    <string name="typeName">Type your name</string>
+    <string name="typePhone">Type your phone</string>
+    <string name="textViewString">Escolaridad</string>
+    <string name="textViewBook">Libro favorito</string>
+    <string name="textViewGender">Género</string>
+    <string name="gengerOne">Masculino</string>
+    <string name="genderTwo">Femenino</string>
+    <string name="deporte">Practica deporte</string>
+    <string name="buttonClean">Limpiar</string>
+    <string name="typeBook">Type your favorite book</string>
+    <string name="saveIcon">Save</string>
+
+    <string-array name="educationalLevel">
+        <item>Bachillerato</item>
+        <item>Técnico</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+
+    <string-array name="books">
+        <item>Hermano Lobo</item>
+        <item>Código Da Vinci</item>
+        <item>Harry Potter</item>
+        <item>Narnia</item>
+        <item>Algoritmos</item>
+    </string-array>
+</resources>

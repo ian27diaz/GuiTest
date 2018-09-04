@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/typeName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/typePhone"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/TextViewEscolaridad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewString"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_escolaridad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/educationalLevel"/>
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewGender"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gengerOne" />
+
+        <RadioButton
+            android:id="@+id/radioB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genderTwo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewBook"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/typeBook" />
+    <CheckedTextView
+        android:id="@+id/cTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deporte"
+        android:textSize="18sp"
+        android:checked="false"
+        android:checkMark="?android:attr/textCheckMark"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonClean"
+        android:layout_marginTop="144dp" />
+
+</LinearLayout>
